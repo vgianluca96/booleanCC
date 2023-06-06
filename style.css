@@ -1,0 +1,88 @@
+
+body {
+    background-image: url( './images/background.jpg');
+    background-size: cover;
+    font-family: Calibri;
+}
+
+.container {
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 1000px;
+    height: 650px;
+    margin: auto;
+    position: relative;
+}
+
+.container1 {
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.container11 {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    color: #10da10
+}
+
+.container12 {
+    height: 40px;
+    width: 80%;
+    background-color: #10da10;
+    margin: auto;
+    position: relative;
+}
+
+.container13 {
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+
+.buttons1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.buttons2 {
+    margin-right: 2px;
+}
+
+.class5 {
+    font-size: 18px;
+}
+
+.class6 {
+    font-size: 12px;
+}
+
+.progressbar1 {
+    border-radius: 5px;
+    background-color: rgb(210, 140, 70);
+    width: 250px;
+    height: 25px;
+}
+
+.progressbar2 {
+    border-radius: 5px;
+    background-color: rgb(35, 180, 70);
+    width: 400px;
+    height: 25px;
+}
+
+.progressbar3 {
+    border-radius: 5px;
+    background-color: rgb(190, 15, 60);
+    width: 100px;
+    height: 25px;
+}
